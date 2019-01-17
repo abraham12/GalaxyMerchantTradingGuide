@@ -1,6 +1,7 @@
 # GalaxyMerchantTradingGuide
 To run this program : GalaxyMerchantTradingGuide.java
 The input will read the text file(.txt).
+Default I use this real path : "C:\\\\Users\\\\TIUS\\\\Desktop\\\\Input.txt".
 Filepath can be accessed with arguments or Default Path in GalaxyMerchantTradingGuide.java.
 
 Unit test cases have been written using jUnit.
