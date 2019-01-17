@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class GalaxyMerchantTradingGuide {
  
-    public static String DEFAULT_PATH="C:\\\\Users\\\\TIUS\\\\Desktop\\\\InputTest.txt";
+    public static String DEFAULT_PATH="C:\\\\Users\\\\TIUS\\\\Desktop\\\\Input.txt";
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
         //The Program will read the file path as input

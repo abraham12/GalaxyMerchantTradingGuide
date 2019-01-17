@@ -73,7 +73,6 @@ public class IOProcess {
                     else if((_preciousMetal.contains("null") || _preciousMetal=="") && isValidRomanNumber){
                         String[] _basis = _inputArr[1].split(" ");
                         //Calculate the exact price of 1 Precious Metal
-                        System.out.println(rn.RomanNumberBasis(_romanNumber));
                         int _pricePreciousMetal = Math.round(Integer.parseInt(_basis[0])/rn.RomanNumberBasis(_romanNumber));
                         
                         data.put(_metal[sizeMetal-1], _pricePreciousMetal); //Store the exact Price of 1 Precious Metal
