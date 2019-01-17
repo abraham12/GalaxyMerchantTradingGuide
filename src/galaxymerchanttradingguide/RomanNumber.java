@@ -150,14 +150,20 @@ public class RomanNumber {
                                 if((i+2) < sizeRomanNumber){
                                     if(romanNumber.get(""+_romanNumber.charAt(i+2))!=null){
                                         tempResult3=(int)romanNumber.get(""+_romanNumber.charAt(i+2)); // Get Next Next Roman Number in Decimal Base
-                                        tempResult1=(tempResult2-tempResult1);
-                                        if(tempResult1>tempResult3){
-
-                                            i+=2; // to move the pointer in next index
-                                        }
-                                        else{
+                                        if(tempResult1<tempResult3){ //the most left must be greater
                                             result=false;
                                             break;
+                                        }
+                                        else{
+                                            tempResult1=(tempResult2-tempResult1);
+                                            if(tempResult1>tempResult3){
+
+                                                i+=2; // to move the pointer in next index
+                                            }
+                                            else{
+                                                result=false;
+                                                break;
+                                            }
                                         }
                                     }
                                     else{
