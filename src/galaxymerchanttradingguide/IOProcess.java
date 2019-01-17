@@ -129,7 +129,7 @@ public class IOProcess {
                 String _inputMetal = sb.toString().trim();
                 String _romanNumber=FormatRomanNumber(_inputMetal); // String to Get Roman Number
                 boolean isValidRomanNumber = rn.RomanNumberValidation(_romanNumber);
-                if(_romanNumber.contains("null") || !isValidRomanNumber){ // Wrong Input
+                if(_romanNumber.contains("null") || !isValidRomanNumber || data.get(_metal[_metal.length-1])==null){ // Wrong Input
                     System.out.println(WRONGINPUT);
                 }
                 else{
