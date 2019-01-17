@@ -29,3 +29,4 @@ glob prok Silver is 68 Credits
 glob prok Gold is 57800 Credits
 glob prok Iron is 780 Credits
 I have no idea what you are talking about
+
