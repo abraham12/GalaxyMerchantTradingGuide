@@ -157,7 +157,6 @@ public class RomanNumber {
                                         else{
                                             tempResult1=(tempResult2-tempResult1);
                                             if(tempResult1>tempResult3){
-
                                                 i+=2; // to move the pointer in next index
                                             }
                                             else{
